@@ -94,3 +94,5 @@ set relativenumber
 set number
 set laststatus=2
 set fillchars+=stl:\ ,stlnc:\
+
+"test change

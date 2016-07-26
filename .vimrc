@@ -27,12 +27,17 @@ Plugin 'honza/vim-snippets'
 " imap <C-\> <Plug>snipMateNextOrTrigger
 " let g:snips_trigger_key = '<C-\>'
 
+" Plugin 'altercation/vim-colors-solarized'
+" vim for tmux 
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'tmux-plugins/vim-tmux'
+
 Plugin 'tpope/vim-fugitive'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 " -------------------------------------------------------------
-
+set term=screen-256color
 "enable syntax
 syntax on
 
@@ -94,3 +99,6 @@ set relativenumber
 
 set laststatus=2
 set fillchars+=stl:\ ,stlnc:\
+
+" set lines=50 columns=100
+" something's here 

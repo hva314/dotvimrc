@@ -64,6 +64,8 @@ let &t_SR = "\<Esc>[4 q"
 syntax on
 set term=screen-256color
 
+nnoremap <A-Left> :tabprevious<CR>
+nnoremap <A-Right> :tabnext<CR>
 " cmd line height =2
 " set cmdheight=2
 

@@ -82,7 +82,7 @@ set showmatch
 
 " set vim theme
 set background=dark
-colorscheme smyck
+colorscheme desert
 
 " allow cusor go beyond last character
 set virtualedit=onemore

@@ -113,8 +113,8 @@ set pastetoggle=<F2>
 set showmode
 
 " highlight current line
-set cursorline
-hi CursorLine cterm=NONE ctermbg=blue ctermfg=white guibg=blue guifg=white
+" set cursorline
+" hi CursorLine cterm=NONE ctermbg=blue ctermfg=white guibg=blue guifg=white
 
 " set line number
 set number
